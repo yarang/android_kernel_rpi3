@@ -137,3 +137,7 @@
 		sd_debug     = <&sdhost>,"brcm,debug";
 	};
 };
+
+&i2c2 {
+	status = "okay";
+};
